@@ -1,0 +1,147 @@
+{
+    "model":"model.dae",
+
+    "nodes":
+    {
+        "head": "head",
+        "eyeLeft": "eyeL",
+        "eyeRight": "eyeR",
+        "jawUpper":"",
+        "jawLower":"",
+        "tongue":"tongue",
+        "eyeLeftBone":"",
+        "eyeRightBone":"",
+        "jawLowerBone": "",
+        "earLeftBone":"",
+        "earRightBone":"",
+        "eyeLeftMorpher": "",
+        "eyeRightMorpher": "",
+        "mouthMorpher": "",
+        "tongueMorpher":"",
+        "headMorpher": "headA"
+    },
+    "blends":
+    {
+        "blendsImport":"blends.dae", 
+    },
+    "morpher":
+    {
+        "headMorpher":
+        {
+            "eyeWideLeft": "eyeWide_L",
+            "eyeLookInLeft": "eyeLookIn_L",
+            "eyeLookOutLeft": "eyeLookOut_L",
+            "eyeLookUpLeft": "eyeLookUp_L",
+            "eyeLookDownLeft": "eyeLookDown_L",
+            "eyeBlinkLeft": "eyeBlink_L",
+            "eyeSquintLeft": "eyeSquint_L",
+            "eyeWideRight": "eyeWide_R",
+            "eyeLookInRight": "eyeLookIn_R",
+            "eyeLookOutRight": "eyeLookOut_R",
+            "eyeLookUpRight": "eyeLookUp_R",
+            "eyeLookDownRight": "eyeLookDown_R",
+            "eyeBlinkRight": "eyeBlink_R",
+            "eyeSquintRight": "eyeSquint_R",
+            "jawOpen": "jawOpen",
+            "jawRight": "jawRight",
+            "jawLeft": "jawLeft",
+            "jawForward": "jawForward",
+            "cheekSquintLeft": "cheekSquint_L",
+            "cheekSquintRight": "cheekSquint_R",
+            "mouthShrugUpper": "mouthShrugUpper",
+            "mouthFunnel": "mouthFunnel",
+            "mouthRollLower": "mouthRollLower",
+            "mouthLowerDownLeft": "mouthLowerDown_L",
+            "mouthLowerDownRight": "mouthLowerDown_R",
+            "mouthPucker": "mouthPucker",
+            "mouthStretchLeft": "mouthStretch_L",
+            "mouthStretchRight": "mouthStretch_R",
+            "mouthClose": "mouthClose",
+            "mouthRollUpper": "mouthRollUpper",
+            "mouthUpperUpLeft": "mouthUpperUp_L",
+            "mouthUpperUpRight": "mouthUpperUp_R",
+            "mouthDimpleLeft": "mouthDimple_L",
+            "mouthDimpleRight": "mouthDimple_R",
+            "mouthFrownLeft": "mouthFrown_L",
+            "mouthFrownRight": "mouthFrown_R",
+            "mouthLeft": "mouthLeft",
+            "mouthPressLeft": "mouthPress_L",
+            "mouthPressRight": "mouthPress_R",
+            "mouthRight": "mouthRight",
+            "mouthSmileLeft": "mouthSmile_L",
+            "mouthSmileRight": "mouthSmile_R",
+            "mouthShrugLower": "mouthShrugLower",
+            "cheekPuff": "cheekPuff",
+            "noseSneerLeft": "noseSneer_L",
+            "noseSneerRight": "noseSneer_R",
+            "browDownLeft": "browDown_L",
+            "browDownRight": "browDown_R",
+            "browInnerUp": "browInnerUp",
+            "browOuterUpLeft": "browOuterUp_L",
+            "browOuterUpRight": "browOuterUp_R"
+        }
+    },
+    "safeTransform":
+    {
+        "zMin":"-0.5",
+        "zMax":"0.06",
+        "eulerXMin":"-15",
+        "eulerXMax":"15",
+        "eulerYMin":"-20",
+        "eulerYMax":"20",
+        "eulerZMin":"-45",
+        "eulerZMax":"45",
+
+    },
+    "animations":
+    {
+        "earAnimation":
+        {
+            "nodeName": "headAction1",
+            "turnTeadThreshold": "0.0010",
+            "duration": "3.0"
+        },
+        "eyeAnimation":
+        {
+            "needRotaion":"0",
+            "verticalRotationAmplitude":"",
+            "horizontalRotationAmplitude":"",
+            "needTransformTexture":"1",
+            "transformBasis": "eyeWide_L",
+            "transformThresholdValue":"0.8",
+            "textureNormal":"eye_color.jpg",
+            "textureTransform1":"eye_color1.jpg",
+            "textureTransform2":"eye_color2.jpg"
+        }
+    },
+    "controlsParam":
+    {
+    	"jawPitch": "30.0",
+    	"jawYew":"",
+    	"eyePitch": "20",
+    	"eyeYew":"16",
+    	"initialJawPitch":"8",
+    },
+    "headTransform":
+    {
+    	"scale": "0.0045",
+    	"positionX": "0",
+    	"positionY": "0",
+    	"positionZ": "0",
+	},
+    "camera":
+    {
+    	"positionX": "0",
+    	"positionY": "0",
+    	"positionZ": "2.0",
+    	"focalLength": "1000",
+        "zNear": "0.1",
+        "zFar": "5",
+    },
+
+    "headMaterial":
+    {
+        "lightModel":"3",
+        "diffuse":"babyQ_color.jpg",
+    },
+}

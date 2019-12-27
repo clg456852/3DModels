@@ -1,0 +1,139 @@
+{
+    "model":"huskyNewT5.dae",
+
+    "nodes":
+    {
+        "head": "head",
+        "eyeLeft": "eyeL",
+        "eyeRight": "eyeR",
+        "jawUpper":"",
+        "jawLower":"",
+        "tongue":"",
+        "eyeLeftBone":"eyeLeftBone",
+        "eyeRightBone":"eyeRightBone",
+        "jawLowerBone": "jawLowerBone",
+        "earLeftBone":"earLeftBone",
+        "earRightBone":"earRightBone",
+        "eyeLeftMorpher": "",
+        "eyeRightMorpher": "",
+        "mouthMorpher": "tongueGeo",
+        "tongueMorpher":"tongue2",
+        "headMorpher": "headFront"
+    },
+    "blends":
+    {
+        "blendsImport":"eyeBlends.dae", 
+        "blendsSecondary":"mouthBlends.dae",
+        "blendsNormal":"",
+    },
+    "morpher":
+    {
+        "headMorpher":
+        {
+            "eyeWideLeft": "eyeWide_L",
+            "eyeLookInLeft": "eyeLookIn_L",
+            "eyeLookOutLeft": "eyeLookOut_L",
+            "eyeLookUpLeft": "eyeLookUp_L",
+            "eyeLookDownLeft": "eyeLookDown_L",
+            "eyeBlinkLeft": "eyeBlink_L",
+            "eyeSquintLeft": "eyeSquint_L",
+            "eyeWideRight": "eyeWide_R",
+            "eyeLookInRight": "eyeLookIn_R",
+            "eyeLookOutRight": "eyeLookOut_R",
+            "eyeLookUpRight": "eyeLookUp_R",
+            "eyeLookDownRight": "eyeLookDown_R",
+            "eyeBlinkRight": "eyeBlink_R",
+            "eyeSquintRight": "eyeSquint_R",
+            "jawOpen": "jawOpen",
+            "jawRight": "jawRight",
+            "jawLeft": "jawLeft",
+            "jawForward": "jawForward",
+            "cheekSquintLeft": "cheekSquint_L",
+            "cheekSquintRight": "cheekSquint_R",
+            "mouthShrugUpper": "mouthShrugUpper",
+            "mouthFunnel": "mouthFunnel",
+            "mouthRollLower": "mouthRollLower",
+            "mouthLowerDownLeft": "mouthLowerDown_L",
+            "mouthLowerDownRight": "mouthLowerDown_R",
+            "mouthPucker_mod": "mouthPucker",
+            "mouthStretchLeft": "mouthStretch_L",
+            "mouthStretchRight": "mouthStretch_R",
+            "mouthClose": "mouthClose",
+            "mouthRollUpper": "mouthRollUpper",
+            "mouthUpperUpLeft": "mouthUpperUp_L",
+            "mouthUpperUpRight": "mouthUpperUp_R",
+            "mouthDimpleLeft": "mouthDimple_L",
+            "mouthDimpleRight": "mouthDimple_R",
+            "mouthFrownLeft": "mouthFrown_L",
+            "mouthFrownRight": "mouthFrown_R",
+            "mouthLeft": "mouthLeft",
+            "mouthPressLeft": "mouthPress_L",
+            "mouthPressRight": "mouthPress_R",
+            "mouthRight": "mouthRight",
+            "mouthSmileLeft": "mouthSmile_L",
+            "mouthSmileRight": "mouthSmile_R",
+            "mouthShrugLower": "mouthShrugLower",
+            "cheekPuff": "cheekPuff",
+            "noseSneerLeft": "noseSneer_L",
+            "noseSneerRight": "noseSneer_R",
+            "browDownLeft": "browDown_L",
+            "browDownRight": "browDown_R",
+            "browInnerUp": "browInnerUp",
+            "browOuterUpLeft": "browOuterUp_L",
+            "browOuterUpRight": "browOuterUp_R"
+        }
+    },
+    "safeTransform":
+    {
+    	"zMin":"-0.5",
+    	"zMax":"0.06",
+    	"eulerXMin":"-15",
+    	"eulerXMax":"15",
+    	"eulerYMin":"-20",
+    	"eulerYMax":"20",
+    	"eulerZMin":"-45",
+    	"eulerZMax":"45",
+
+    },
+    "animations":
+    {
+        "earAnimation":
+        {
+            "nodeName": "hand_ncl1_1",
+            "turnTeadThreshold": "0.0012",
+            "duration": "5.0",
+            "animation":"anim_earIdle.dae",
+        }
+    },
+    "controlsParam":
+    {
+    	"jawPitch": "30.0",
+    	"jawYew":"",
+    	"eyePitch": "20",
+    	"eyeYew":"16",
+    	"initialJawPitch":"8",
+    },
+    "headTransform":
+    {
+    	"scale": "0.05",
+    	"positionX": "0",
+    	"positionY": "0",
+    	"positionZ": "0",
+	},
+    "camera":
+    {
+    	"positionX": "0",
+    	"positionY": "0.03",
+    	"positionZ": "0.742",
+    	"focalLength": "60.0",
+    	"zNear":"0.3",
+    	"zFar":"2.0",
+    },
+
+    "headMaterial":
+    {
+        "lightModel":"3",
+        "diffuse":"huskyNewT.jpg",
+    },
+    "panaroma": "Panaroma5.exr",
+}

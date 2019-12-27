@@ -1,0 +1,138 @@
+{
+    "node":
+    {
+        "head": "HL",
+        "eyeLeft": "eyeL",
+        "eyeRight": "eyeR",
+        "tongue": "togue",
+        "eyeLeftBone":"eyeL",
+        "eyeRightBone":"eyeR",
+        "jawLowerBone": "",
+        "headMorpher": "head",
+        "browLeftMorpher": "lashL",
+        "browRightMorpher": "lashR"
+    },
+    "morpher":
+    {
+        "headMorpher":
+        {
+            "LocationEyeWideLeft": "eyeWide_L",
+            "LocationEyeLookInLeft": "eyeLookIn_L",
+            "LocationEyeLookOutLeft": "eyeLookOut_L",
+            "LocationEyeLookUpLeft": "eyeLookUp_L",
+            "LocationEyeBlinkLeft": "eyeBlink_L",
+            "LocationEyeSquintLeft": "eyeSquint_L",
+            "LocationEyeWideRight": "eyeWide_R",
+            "LocationEyeLookInRight": "eyeLookIn_R",
+            "LocationEyeLookOutRight": "eyeLookOut_R",
+            "LocationEyeLookUpRight": "eyeLookUp_R",
+            "LocationEyeBlinkRight": "eyeBlink_R",
+            "LocationEyeSquintRight": "eyeSquint_R",
+            "LocationJawOpen": "jawOpen",
+            "LocationMouthPucker": "mouthPucker-0.4",
+            "LocationJawLeft": "jawLeft",
+            "LocationJawright": "jawRight",
+            "LocationMouthSmileLeft": "mouthSmile_L",
+            "LocationMouthSmileright": "mouthSmile_R",
+            "LocationMouthFrownLeft": "mouthFrown_L",
+            "LocationMouthFrownRight": "mouthFrown_R",
+            "LocationMouthRollLower": "mouthRollLower",
+            "LocationCheekPuff": "cheekPuff",
+            "LocationMouthShrugUpper": "mouthShrugUpper",
+            "LocationMouthShrugLower": "mouthShrugLower",
+            "LocationEyeZhouMeiLeft": "browDown_L-0.2",
+            "LocationEyeZhouMeiRight": "browDown_R-0.2"
+        },
+        "browLeftMorpher":
+        {
+            "LocationBrowOuterUpLeft": "browOuterUp_L",
+            "LocationBrowInnerUpleft": "browInnerUp",
+            "LocationBrowSQLeft": "browDown_L"
+        },
+        "browRightMorpher":
+        {
+            "LocationBrowOuterUpRight": "browOuterUp_R",
+            "LocationBrowInnerUpright": "browInnerUp",
+            "LocationBrowSQRight": "browDown_R"
+        }
+    },
+    "tesselate":
+    {
+        "head": "2",
+        "lashL": "2",
+        "lashR": "2",
+        "aixinL": "2",
+        "aixinR": "2"
+    },
+    "animation":
+    {
+        "eyeAnimation":
+        {
+            "needRotaion":"1",
+            "verticalRotationAmplitude":"10.0",
+            "horizontalRotationAmplitude":"5.0",
+            "needTransformTexture":"0",
+            "textureNormal":"",
+            "textureTransform1":"",
+            "textureTransform2":"",
+            "needLove":"1",
+            "loveName": "AX",
+            "loveBindShape": "eyeWide_L-0.7&mouthPucker-0.7"
+        },
+        "faceAnimation":
+        {
+            "bindShape": "mouthSmile_L-0.85",
+            "textureList":"shy-1-5.jpg"
+        },
+        "pissedAnimation":
+        {
+            "bindShape": "browDown_L-0.2&mouthFrown_L-0.3",
+            "textureList":"pissed-1-10.jpg",
+            "bindParticles": "smokeParticles"
+        }
+    },
+    "particles":
+    {  
+        "fireParticles": "browDown_L-0.2&jawOpen-0.70"
+    },
+    "safeTransform":
+    {
+        "zMin":"-0.5",
+        "zMax":"0.06",
+        "eulerXMin":"-15",
+        "eulerXMax":"15",
+        "eulerYMin":"-20",
+        "eulerYMax":"20",
+        "eulerZMin":"-45",
+        "eulerZMax":"45"
+    },
+    "camera":
+    {
+        "positionX": "0",
+        "positionY": "-0.0025",
+        "positionZ": "1.0",
+        "focalLength": "1000.0",
+        "zNear":"0.1",
+        "zFar":"2000"
+    },
+    "headTransform":
+    {
+        "scale": "0.006",
+        "positionX": "0",
+        "positionY": "0",
+        "positionZ": "0",
+        "needdistanceperception":"0"
+    },
+    "controlsParam":
+    {
+        "tongueRotateParameter": "15.0",
+    },
+    "model":
+    {
+        "modelFile":"model.scn"
+    },
+    "blends":
+    {
+        "blendsImport":"blends.scn"
+    }
+}

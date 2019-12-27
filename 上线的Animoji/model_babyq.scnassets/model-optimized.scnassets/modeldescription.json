@@ -1,0 +1,119 @@
+{
+    "model": {
+        "modelFile": "model.scn"
+    },
+    "blends": {
+        "blendsImport": "blends.scn"
+    },
+    "node": {
+        "head": "babyQ1",
+        "eyeLeft": "eyeL",
+        "eyeRight": "eyeR",
+        "jawLower": "",
+        "tongue": "tongue",
+        "eyeLeftMorpher": "",
+        "eyeRightMorpher": "",
+        "mouthMorpher": "",
+        "togueMorpher": "",
+        "headMorpher": "headA"
+    },
+    "morpher": {
+        "headMorpher": {
+            "eyeWideLeft": "eyeWide_L",
+            "eyeLookInLeft": "eyeLookIn_L",
+            "eyeLookOutLeft": "eyeLookOut_L",
+            "eyeLookUpLeft": "eyeLookUp_L",
+            "eyeLookDownLeft": "eyeLookDown_L",
+            "eyeBlinkLeft": "eyeBlink_L",
+            "eyeWideRight": "eyeWide_R",
+            "eyeLookInRight": "eyeLookIn_R",
+            "eyeLookOutRight": "eyeLookOut_R",
+            "eyeLookUpRight": "eyeLookUp_R",
+            "eyeLookDownRight": "eyeLookDown_R",
+            "eyeBlinkRight": "eyeBlink_R",
+            "eyeStrabismLeft": "mouthFrown_L-0.6",
+            "eyeStrabismRight": "mouthFrown_L-0.6",
+            "jawOpen": "jawOpen",
+            "jawLeft": "jawLeft",
+            "jawRight": "jawRight",
+            "jawForward": "jawForward",
+            "cheekSquintLeft": "cheekSquint_L",
+            "cheekSquintRight": "cheekSquint_R",
+            "cheekPuff": "cheekPuff",
+            "mouthShrugUpper": "mouthShrugUpper",
+            "mouthFunnel": "mouthFunnel",
+            "mouthRollLower": "mouthRollLower",
+            "mouthRollUpper": "mouthRollUpper",
+            "mouthLowerDownLeft": "mouthLowerDown_L",
+            "mouthLowerDownRight": "mouthLowerDown_R",
+            "mouthPucker": "mouthPucker",
+            "mouthClose": "mouthClose",
+            "mouthUpperUpLeft": "mouthUpperUp_L",
+            "mouthUpperUpRight": "mouthUpperUp_R",
+            "mouthDimpleLeft": "mouthDimple_L",
+            "mouthDimpleRight": "mouthDimple_R",
+            "mouthFrownLeft": "mouthFrown_L",
+            "mouthFrownRight": "mouthFrown_R",
+            "mouthLeft": "mouthLeft",
+            "mouthRight": "mouthRight",
+            "mouthPressLeft": "mouthPress_L",
+            "mouthPressRight": "mouthPress_R",
+            "mouthSmileLeft": "mouthSmile_L",
+            "mouthSmileRight": "mouthSmile_R",
+            "browDownLeft": "browDown_L",
+            "browDownRight": "browDown_R",
+            "browInnerUp": "browInnerUp",
+            "browOuterUpLeft": "browOuterUp_L",
+            "browOuterUpRight": "browOuterUp_R",
+            "headAction": "jawOpen-0.5"
+        }
+    },
+    "animation": {
+        "nodeAnimation": {
+            "nodeName": "headAction1",
+            "turnTeadThreshold": "0.0010",
+            "duration": "3.0"
+        },
+        "eyeAnimation": {
+            "needRotaion": "0",
+            "verticalRotationAmplitude": "",
+            "horizontalRotationAmplitude": "",
+            "needTransformTexture": "1",
+            "transformBasis": "eyeWide_L",
+            "transformThresholdValue": "0.8",
+            "textureNormal": "eye_color.jpg",
+            "textureTransform1": "eye_color1.jpg",
+            "textureTransform2": "eye_color2.jpg"
+        }
+    },
+    "camera": {
+        "positionX": "0",
+        "positionY": "-0.006",
+        "positionZ": "2.0",
+        "focalLength": "1000.0",
+        "zNear": "0.1",
+        "zFar": "100"
+    },
+    "safeTransform": {
+        "zMin": "-0.5",
+        "zMax": "0.06",
+        "eulerXMin": "-15",
+        "eulerXMax": "15",
+        "eulerYMin": "-20",
+        "eulerYMax": "20",
+        "eulerZMin": "-45",
+        "eulerZMax": "45"
+    },
+    "headTransform": {
+        "scale": "0.0030",
+        "positionX": "0",
+        "positionY": "0",
+        "positionZ": "0",
+        "needdistanceperception": "0"
+    },
+    "controlsParam": {
+        "tongueRotateParameter": "18.0",
+        "jawRotateParameter": "",
+        "initialJawPitch": ""
+    }
+}
